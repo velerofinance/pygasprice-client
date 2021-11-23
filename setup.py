@@ -37,8 +37,8 @@ setup(
     license='COPYING',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/makerdao/pygasprice-client',
-    author='MakerDAO',
+    url='https://github.com/velerofinance/pygasprice-client',
+    author='velerofinance',
     packages=find_packages(include=['pygasprice_client', 'pygasprice_client.*']),  # Required
     python_requires='~=3.6',
 

@@ -1,5 +1,6 @@
 # pygasprice-client
-[![Build Status](https://travis-ci.com/makerdao/pygasprice-client.svg?branch=master)](https://travis-ci.com/makerdao/pygasprice-client)
+
+[comment]: <> ([![Build Status]&#40;https://travis-ci.com/velerofinance/pygasprice-client.svg?branch=master&#41;]&#40;https://travis-ci.com/makerdao/pygasprice-client&#41;)
 
 Tiny asynchronous client of several gas price APIs. 
 
@@ -11,7 +12,7 @@ the feed becomes available again.
 Since _GasNow_ and _Blocknative_ are based upon current mempool activity and not modeled using recent blocks, 
 it is recommended to query them with smaller intervals (for example, 15 seconds instead of 60).
 
-<https://chat.makerdao.com/channel/keeper>
+[comment]: <> (<https://chat.makerdao.com/channel/keeper>)
 
 
 ## Installation
@@ -20,7 +21,7 @@ This project uses *Python 3.6.6*.
 
 In order to clone the project and install required third-party packages please execute:
 ```
-git clone https://github.com/makerdao/pygasprice-client.git
+git clone https://github.com/velerofinance/pygasprice-client.git
 cd pygasprice-client
 pip3 install -r requirements.txt
 ```
@@ -122,7 +123,7 @@ a "safe/low" transaction.
 
 ## License
 
-See [COPYING](https://github.com/makerdao/ethgasstation-client/blob/master/COPYING) file.
+See [COPYING](https://github.com/velerofinance/ethgasstation-client/blob/master/COPYING) file.
 
 
 ### Disclaimer
